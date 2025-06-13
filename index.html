@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <h1>Rock, Paper, And Scissors</h1>
+        <div class="score">
+            <div class="score-player">
+                <p>0 - 0</p>
+            </div>
+        </div>
+        <div class="images">
+            <figure>
+                <img src="rock.png" alt="rock image" onclick="playerInput('Rock')">
+                <figcaption>Rock</figcaption>
+            </figure>
+            <figure>
+                <img src="paper.png" alt="Paper image" onclick="playerInput('Paper')">
+                <figcaption>Paper</figcaption>
+            </figure>
+            <figure>
+                <img src="scissors.png" alt="Scissors image" onclick="playerInput('Scissors')">
+                <figcaption>Scissors</figcaption>
+            </figure>
+        </div>
+        <div class="table-container">
+            <table id="Score">
+                <thead>
+                    <tr>
+                        <th>
+                            Player
+                        </th>
+                        <th>
+                            Computer
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

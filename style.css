@@ -1,0 +1,61 @@
+body,
+html {
+  background-color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score {
+    text-align: center;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.images img:hover {
+   transform: translateY(-5px);
+   transition: transform 0.2s ease; 
+   cursor: pointer;
+}
+
+figcaption {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8px;
+}
+.score p {
+    font-size: 32px;
+}
+
+.inputs {
+    gap: 60px;
+}
+
+table {
+    font-size: 30px;
+    border-spacing: 20px;
+    text-align: center;
+}
+
+.table-container {
+    max-height: 250px;
+    overflow-y: auto;
+    margin-top: 24px;
+}
+
+.table-container th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: white;
+}
