@@ -53,6 +53,10 @@ To play locally:
 
 ---
 
+## 🎮 Live Demo
+[Click here to try it!](https://imritesh24.github.io/Rock-Paper-Scissors/)
+
+
 ## 🛠️ Setup & Usage
 
 Clone and open in browser—no build tools required:
@@ -62,5 +66,3 @@ git clone https://github.com/imritesh24/Rock-Paper-Scissors.git
 cd Rock-Paper-Scissors
 open index.html
 
-## 🎮 Live Demo
-[Click here to try it!](https://imritesh24.github.io/Rock-Paper-Scissors/)
